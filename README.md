@@ -114,7 +114,7 @@ Full tkinter interface with dark theme:
 
 ```bash
 # Launch GUI
-python log_forensics_analyzer.py
+python neatlabs_log_forensics_analyzer.py
 
 # Windows: Run as Administrator for full Event Log access
 # Right-click terminal → "Run as Administrator"
@@ -139,7 +139,7 @@ python log_forensics_analyzer.py
 ## Architecture
 
 ```
-log_forensics_analyzer.py (5,350+ lines, single file)
+neatlabs_log_forensics_analyzer.py (5,350+ lines, single file)
 │
 ├── LogEvent            — Normalized event data class
 ├── LogParser           — Multi-format parser with auto-detection
